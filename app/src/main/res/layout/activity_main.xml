@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304FFE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/badge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:text="Congratulations!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="32dp"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:background="#0D47A1"
+        android:text="You are Awesome!" />
+</RelativeLayout>
