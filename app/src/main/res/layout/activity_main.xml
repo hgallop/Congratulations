@@ -4,35 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#304FFE"
+    android:background="@color/bottom"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerInside"
+        android:contentDescription="@string/image"
         android:src="@drawable/badge" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="32dp"
-        android:textSize="21sp"
-        android:fontFamily="sans-serif"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_size"
         android:textColor="@android:color/white"
-        android:textAlignment="center"
-        android:background="@android:color/holo_blue_light"
-        android:text="Congratulations!" />
+        android:gravity="center"
+        android:background="@color/top"
+        android:text="@string/congratulations" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:padding="32dp"
-        android:textSize="21sp"
-        android:fontFamily="sans-serif"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/text_size"
         android:textColor="@android:color/white"
-        android:textAlignment="center"
-        android:background="#0D47A1"
-        android:text="You are Awesome!" />
+        android:gravity="center"
+        android:background="@color/bottom"
+        android:text="@string/you_are_awesome" />
 </RelativeLayout>

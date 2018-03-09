@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Congratulations</string>
+    <string name="you_are_awesome">You are Awesome!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="image">Grow with Google scholarship badge</string>
 </resources>
